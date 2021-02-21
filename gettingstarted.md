@@ -97,6 +97,12 @@ So far, the C makes it rather like an Arduino - but I don't know if it has the s
 
 ## Developing on the Mac and PC
 
-Well! If I had just kept reading the [Instructions](https://datasheets.raspberrypi.org/pico/getting-started-with-pico.pdf), I would have seen that there are guides for installing on Mac, using Brew. There's also a Windows version of the environment (but it doesn't use WSL). That would have saved me an hour of installation time..
+Well! If I had just kept reading the [Instructions](https://datasheets.raspberrypi.org/pico/getting-started-with-pico.pdf), I would have seen that there are guides for installing on Mac, using Brew. There's also a Windows version of the environment (but it doesn't use WSL). That would have saved me an hour of installation time.. that said the Mac instructions did not work for me (yet).
+
+## Wait.. is this C or Assembler?
+
+Yeah, turns out this is for C. I wonder how to do assembly language? Hmm.
+
+
 
 
