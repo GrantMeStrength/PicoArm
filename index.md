@@ -2,6 +2,11 @@
 
 Just some notes as I try to grok it.
 
+## index
+
+* [Getting started](gettingstated.md)
+* [Assembly](assembly.md)
+
 ## Links
 
 
