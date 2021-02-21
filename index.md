@@ -2,9 +2,9 @@
 
 Just some notes as I try to grok it.
 
-## index
+## Index
 
-* [Getting started](gettingstated.md)
+* [Getting started](gettingstarted.md)
 * [Assembly](assembly.md)
 
 ## Links
