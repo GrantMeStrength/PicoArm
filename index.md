@@ -6,6 +6,9 @@ Just some notes as I try to grok it.
 
 * [Getting started](gettingstarted.md)
 * [Assembly](assembly.md)
+* [Pico is weird](picoisweird.md)
+* [More assembly](moreassembly.md)
+* [Storing numbers](storingnumbers.md)
 
 ## Links
 

@@ -93,7 +93,7 @@ The Instructions list some command line magic to unmount and remount the Pico so
 
 I have to admit that this is a really nice C development device. The Instructions carry on to demonstrate setting up a Serial port (using the USB port or hardware pins on the Pico itself). There's also a good debugging options, so you can monitor the C program as it runs. 
 
-So far, the C makes it rather like an Arduino - but I don't know if it has the same level of libary support for the billions of devices the Arduino has. The lack of integral WiFi make it a little less useful that some devices, but it should be easy to add some via an ESP for example. I guess the Pico's strenghts are low power, high performance.
+So far, the C makes it rather like an Arduino - but I don't know if it has the same level of libary support for the billions of devices the Arduino has. The lack of integral WiFi make it a little less useful that some devices, but it should be easy to add some via an ESP for example. I guess the Pico's strenghts are low power, high performance and more IO pins than the Arduino.
 
 ## Developing on the Mac and PC
 
