@@ -4,7 +4,9 @@ I started these notes to try and chronical learning to write code in assembly on
 
 Turns out it's not that at all - there's a lot more to it. So I took a step back to first learn about programming in ARM on the regular Raspberry Pi.
 
-The Pico is a very different little device it turns out..
+When/if I can find examples of ARM on the Pico I can try that project again.
+
+Update: Turns out the Raspberry Pi folks have yet to publish details on low-level ARM type coding on the Pico. Which is why I couldn't find any.
 
 ## Index
 
