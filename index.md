@@ -1,21 +1,26 @@
-# Developing in ARM on the Raspberry Pi Pico
+# Developing in assembly on the Raspberry Pi Pico
 
-Just some notes as I try to grok it.
+I started these notes to try and chronical learning to write code in assembly on the Pico, assuming it was a little Raspberry Pi.
+
+Turns out it's not that at all - there's a lot more to it. So I took a step back to first learn about programming in ARM on the regular Raspberry Pi.
+
+The Pico is a very different little device it turns out..
 
 ## Index
 
-* [Getting started](gettingstarted.md)
-* [Assembly](assembly.md)
-* [Pico is weird](picoisweird.md)
-* [More assembly](moreassembly.md)
-* [Storing numbers](storingnumbers.md)
+* [1. Getting started](gettingstarted.md)
+* [2. Assembly](assembly.md)
+* [Interlude - Pico is weird](picoisweird.md)
+* [3. More assembly](moreassembly.md)
+* [4. Storing numbers](storingnumbers.md)
 
 ## Links
 
 
 * [Pico SDK](https://github.com/raspberrypi/pico-sdk) - maybe the key to getting going
 * [Raspberry Pi Getting Started Guide](https://datasheets.raspberrypi.org/pico/getting-started-with-pico.pdf) - a big PDF of facts!
-
+* [A closer look at Raspberry Pi RP2040 Programmable IOs (PIO)](https://www.cnx-software.com/2021/01/27/a-closer-look-at-raspberry-pi-rp2040-programmable-ios-pio/) 
+* [RP2040 microcontroller](https://www.cnx-software.com/2021/01/21/raspberry-pi-pico-board-features-rp2040-dual-core-cortex-m0-mcu/#raspberry-pi-rp2040-microcontroller)
 
 ## Arm tutorials and reference
 

@@ -1,18 +1,18 @@
 # Getting started
 
-Turns out most of the guides that exist assuming you're going to be using a Raspberry Pi to program the Pico (well, that isn't surprising - but see the end of this page!) so I'm going to start by connecting my Pico to a Raspberry Pi 4 that I have set-up and ready for Linux-y things. Once I get it working here, it would be interesting to see if it ran on Windows under WSL (or Mac, using Brew).
+It turns out that most of the guides on programming the Pico assume you're going to be using a Raspberry Pi to program it (well, that isn't surprising - but see the end of this page!) so I'm going to start by connecting my Pico to a Raspberry Pi 4 that I have set-up and ready for Linux-y things. Once I get it working here, it would be interesting to see if it ran on Windows under WSL (or Mac, using Brew).
 
-I like to use my Mac still, so I use VNC to log into the Pi's desktop, and VSCode to log into the Pi's terminal / edit files. It's a convenient system as my workbench for the electronics stuff is different from my Mac desk.
+I like to use my Mac, so I use VNC to log into the Pi's desktop, and VSCode to log into the Pi's terminal and to edit files using Visual Studio Code's remote editing support. It's a convenient system as my electronics workbench is different from my Mac office desk.
 
 ## Installing the Pico SDK on a Raspberry Pi
 
-This process will take a while (> 1 hour ?) and it will also require 2.5Gb of disk space (which is a lot on a typically small SDCard-based Pi installation). Check you have enough before you start:
+Ok, time to get the tools onto the Pi. This process will take a while (> 1 hour ?) and it will also require 2.5Gb of disk space (which is a lot on a typically small SDCard-based Pi installation). Check you have enough before you start:
 
 ```
 df -Bm 
 ```
 
-Getting tight? This page will be useful: [Freeing up space on your Raspberry Pi](https://www.raspberrypi-spy.co.uk/2018/03/free-space-raspberry-pi-sd-card/).
+Space getting tight? This page will be useful: [Freeing up space on your Raspberry Pi](https://www.raspberrypi-spy.co.uk/2018/03/free-space-raspberry-pi-sd-card/).
 
 ```
 wget https://raw.githubusercontent.com/raspberrypi/pico-setup/master/pico_setup.sh 
@@ -55,19 +55,19 @@ cd blink
 make -j4
 ```
 
-I have no idea what '-j4' does, but at the end of this it says 
+I have no idea what '-j4' does, but at the end of this it says:
 
 ```
 [100%] Built target blink
 ```
 
-so I am prepared to believe it. The file ```blink.uf``` is the important one: we can drag it directly into the Pico. The Pico's trick of appearing as a USB device means that you can just drag-and-drop the .uf file and the Pico will unmount itself, and reboot - launching the program once it restarts. It's very cool, and that's exactly what happened. 
+..so I am prepared to believe it works. The file ```blink.uf``` is the important one: we can drag it directly into the Pico. The Pico's trick of appearing as a USB device means that you can just drag-and-drop the .uf file and the Pico will unmount itself, and reboot - launching the program once it restarts. It's very cool, and that's exactly what happened when I did it. 
 
-To simulate what I see, switch your gaze from one image to the other:
+To simulate what I see, switch your gaze from one image to the other repeatedly:
 
 ![](blink1.jpg) ![](blink2.jpg)
 
-BLINK looks like this:
+The source code for BLINK looks like this:
 
 ```
 #include "pico/stdlib.h"
